@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://unsplash.it/400/400);
+}
+button{
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: tomato;
+    font-size: large;
+    
+}
+button:hover{
+    background-color: darkgoldenrod;
+    transition-duration: 2s;
+}
+.container{
+    border: 1px black solid;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: yellow;
+}
+.flex-box-container{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-box-container div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
